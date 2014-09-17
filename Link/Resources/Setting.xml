@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<Link>
+  <PicSize name="单张图片长宽" limit="10<=x<=128">64</PicSize>
+  <PicNum name="需要加载的图片数" limit="1<=x<=14" other="图片一共14张">14</PicNum>
+  <HorNum name="横向排列的个数" other="横向排列个数必须等于图片总数除以某正整数">7</HorNum>
+  <PerSco name="每次获得的分数" other="为整数">1</PerSco>
+  <ReNum name="图片重复次数" other="必须为偶数">4</ReNum>
+</Link>
